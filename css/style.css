@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+.rubik{
+    font-family: 'Piedra', cursive;
+    font-size: 60px;
+    color: rgb(3, 70, 30);
+}
+
+
+
+.rock{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+}
+.card:hover{
+    box-shadow: rgba(44, 43, 43, 0.285) 0px 0px 20px 20px !important;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 112px;
+    transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+    fill: #1a1a191b;
+}
